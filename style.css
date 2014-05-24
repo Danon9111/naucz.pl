@@ -1,0 +1,258 @@
+body
+{
+font-family: Arial;
+margin: 0px 0px auto 0px;
+background-color: #f0eedc;
+}
+h1
+{
+color: f6fbf6;
+text-align: center;
+}
+p
+{
+font-family: "Arial";
+font-size: 15px;
+
+}
+
+.button_menu{
+outline: none;
+padding: 6px 30px 6px !important;
+font-size: 17px !important;
+background-color: #57d6c7;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 1px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+.button_menu_half_left{
+outline: none;
+padding: 6px 30px 6px !important;
+font-size: 17px !important;
+background-color: #57d6c7;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 1px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+.button_menu_half_right{
+margin-left:-5px;
+outline: none;
+padding: 6px 15px 6px !important;
+font-size: 17px !important;
+background-color: #ff6a81;
+text-shadow: 1px 1px #ff6a81;
+color: #ffffff;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border: 1px solid #ff6a81;
+cursor: pointer;
+box-shadow: 0 1px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+/* Main DIV.*/
+#MAIN {
+background-color: #f0eedc;
+height: 100%;
+width: 960px;
+position: relative;
+margin-bottom: 1150px;
+padding-bottom: 52px;
+}
+
+/* Top where logo and menu are.*/
+#HEADER {
+	background-color: #e9e9e9;
+	width: 100%;
+	height: 80px;
+	position:absoulute;
+}
+
+#MENU_LOGO{
+	top: 0;
+	width: 1200px;
+	z-index:1;
+}
+
+/*[LP]*/
+#LEFT_PANEL{
+	background-color: red;
+	margin-top: 20px;
+	width: 0;
+	float: left;
+	margin-left: 89px;
+}
+
+
+#LP_BS_TEXT{
+	padding-left: 27px;
+	padding-top: 10px;	
+	color: #818181;
+	text-align: left;
+}
+
+/* Panel for headers in left_panel*/
+#LP_PANEL_HEADER{
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-top: 10px;
+	font-size: 15px;
+	text-align: left;
+	color: #fff;
+	background-color: #ff6a81;
+	width: auto;
+	height: 45px;
+}
+
+/*[RP]*/
+#RIGHT_PANEL{
+	background-color: blue;
+	margin-top: 20px;
+	width: 0;
+	float: left;
+	margin-left: 256px;
+}
+
+/*Notification center*/
+#NOTIFICATION_CENTER{
+	width: 134px;
+	height: 27px;
+	background-color: #dfdfdf;
+	text-align: center;
+	margin-left: 235px;
+	margin-bottom: 0px;
+	padding-top: 6px;
+}
+
+/*Rounded circle Avatar on the left of panel_comment*/
+#RP_AVATAR{
+	float: left;
+}
+
+/*[PC] Panel for post elements like comment and communication*/
+#RP_PANEL_COMMENT{
+	margin-left: 77px;
+	margin-bottom: 33px;
+	width: 450px;
+	background-color: #dfdfdf;
+}
+
+/* Div for placing text for comment*/
+#RP_PC_COMMENT{
+	color: #818181;
+	font-size: 14px;
+	text-align: left;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+	height: auto;
+}
+
+/*Div for placing images*/
+#RP_PC_IMAGES{
+	background-color: #cacaca;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 16px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	text-align: left;
+}
+
+/* Div for placing communication info in panel_comment.*/
+#RP_PC_COMMUNICATION{
+	padding-left: 60px;
+	padding-top: 5px;
+	color: #fff;
+	font-size: 16px;
+	background-color: #ff6a81;
+	width: auto;
+	height: 30px;
+	float: bottom;
+}
+
+#FOOTER{
+	width: 100%;
+	height: 52px;
+	margin-top: -52px;
+	background-color: #e9e9e9;
+	clear: both;
+	position: relative;
+	bottom: 0;
+	left: 0;
+}
+
+.F_button_menu{
+outline: none;
+padding: 1px 1px 1px !important;
+font-size: 15px !important;
+background-color: #e9e9e9;
+text-shadow: 1px 1px #e9e9e9;
+color: #a4a4a4;
+border-radius: 0px;
+border: 0px solid #e9e9e9;
+}
+
+/* START SEARCHBAR --> */
+#tfheader{
+	margin-top: 20px;
+	background-color:#a1e19d;
+	border-radius: 5px;
+	width: 783px;
+	height: 60px;
+}
+#tfnewsearch{
+	float:center;
+	margin-left: 4%;
+	padding: 7px;
+}
+.tftextinput{
+	margin: 0;
+	vertical-align: middle;
+	background-color: #e9e9e9;
+	color: b0b0b0 !important;
+	text-align: right;
+	padding: 8px 160px;
+	font-size:25px;
+	border:0px solid #fff; border-right:0px;
+}
+.tfbutton {
+	vertical-align: middle;
+	margin: 0;
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 10px;
+	padding: 10px 12px;
+	outline: none;
+	cursor: pointer;
+	color: #ffffff;
+	background: #ff6a81;
+	border-radius: 8px;
+	border: 2px solid #fff;
+
+}
+
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton::-moz-focus-inner {
+  border: 0;
+}
+.tfclear{
+	clear:both;
+}
+/* <--  END SEARCHBAR*/
