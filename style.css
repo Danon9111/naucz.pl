@@ -2,7 +2,8 @@ body
 {
 font-family: Arial;
 margin: 0px 0px auto 0px;
-background-color: #f0eedc;
+background-color: #999999;
+background-image: url('images/bg.png');
 }
 h1
 {
