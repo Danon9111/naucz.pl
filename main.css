@@ -15,7 +15,6 @@ background-image: url('images/bg.png');
 .nav .container .pull-right{
 	position: absolute;
 	margin-left: 25%;
-	margin-right: 3%;
 }
 
 .nav .container .row .pull-right button{
@@ -44,4 +43,69 @@ background-image: url('images/bg.png');
 }
 ul li{
 	display: inline;
+}
+
+.jumbotron {
+	background-color: #3e3e3e;
+	height: 600px;
+	margin-top: 7%;
+}
+
+.jumbotron .container{
+	background-color: #e2e2e2;
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 60%;
+	height: 80%;
+	border-radius: 30px;
+	border: 5px solid #f6f6f6;
+	float: left;
+}
+
+.jumbotron .sidebar{
+	background-color: #ffae56;
+	margin-top: 3%;
+	margin-left: 67%;
+	width: 30%;
+	height: 80%;
+	border-radius: 30px;
+	border: 5px solid #f99427;
+	position: relative;
+}
+
+.jumbotron .sidebar .data{
+	color: #ffffff;
+	text-shadow: 5px 5px 5px #fba03e;
+	font-weight: bold;
+	margin-left: 30px;
+	padding: 0px 0px 0px 0px;
+}
+.jumbotron .sidebar h2{
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 30px;
+	padding: 0px 0px 0px 0px;
+}
+
+.jumbotron .sidebar h4{
+	color: #ffffff;
+	margin-left: 30px;
+}
+
+.jumbotron .sidebar p{
+	margin-top: 35px;
+}
+
+.footer{
+	background-color: #e2e2e2;
+	height: 80px;
+	margin-top: 7%;
+	margin-bottom: 0%;
+	border-top: 5px solid #fba03e;
+}
+
+.footer img{
+	margin-top: 2%;
+	margin-left: 40%;
+	margin-right: 40%;
 }
