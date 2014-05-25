@@ -1,9 +1,8 @@
 body
 {
-font-family: Arial;
-margin: 0px 0px auto 0px;
-background-color: #999999;
-background-image: url('images/bg.png');
+	font-family: Arial;
+	background-color: #999999;
+	background-image: url('images/bg.png');
 }
 
 .nav {
@@ -51,9 +50,22 @@ ul li{
 	margin-top: 7%;
 }
 
+.jumbotron .currentplace{
+	height: 20px;
+	width: 100%; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 3%;
+}
+
+.jumbotron .currentplace h2{
+	color: #a1a1a1;
+	font-weight: none;
+}
+
 .jumbotron .container{
 	background-color: #e2e2e2;
-	margin-top: 3%;
+	margin-top: 1%;
 	margin-left: 3%;
 	width: 60%;
 	height: 80%;
@@ -62,9 +74,40 @@ ul li{
 	float: left;
 }
 
+.jumbotron .container .pull-left{
+	width: 40%;
+	height: 80%;
+	margin-top: 3%;
+	margin-left: 10%;
+	border-right: 3px solid #c0c0c0;
+	color: #8c8c8c;
+}
+
+.jumbotron .container .pull-left p{
+	margin-top: 20%;
+}
+
+.jumbotron .container .pull-right{
+	width: 50%;
+	height: 80%;
+	margin-top: 10%;
+}
+
+.jumbotron .container .pull-right #jumbobutton{
+	background-color: #ffae56;
+	border-bottom: 1px solid #f7640f;
+	border-radius: 50px;
+	width: 330px;
+	height: 60px;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 3%;
+}
+
 .jumbotron .sidebar{
 	background-color: #ffae56;
-	margin-top: 3%;
+	margin-top: 1%;
 	margin-left: 67%;
 	width: 30%;
 	height: 80%;
