@@ -44,15 +44,32 @@ ul li{
 	display: inline;
 }
 
+.trapez {
+	border-bottom: 50px solid #595959;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 25%;
+	color: #e2e2e2;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.trapez p{
+	padding: 2%;
+}
+
 .jumbotron {
 	background-color: #3e3e3e;
 	height: 600px;
-	margin-top: 7%;
+	float: top;
 }
 
 .jumbotron .currentplace{
 	height: 20px;
-	width: 100%; 
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 3%;
@@ -142,7 +159,7 @@ ul li{
 .footer{
 	background-color: #e2e2e2;
 	height: 80px;
-	margin-top: 7%;
+	margin-top: 5%;
 	margin-bottom: 0%;
 	border-top: 5px solid #fba03e;
 }
